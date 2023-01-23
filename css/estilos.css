@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Shrikhand&display=swap');
+
+/*Varianble*/
+:root{
+    /*nombre_variable: valor_:variable*/
+    --color-empresa: rgba(233, 144, 255, 0.539);
+}
+
+/*Estilos para el header*/
+.logo{
+    width: 10rem;
+    border-radius: 5rem;
+    border: 2px black;
+}
+
+.Nombre-Empresa{
+    margin-left: 5rem;
+    font-family: 'Shrikhand', cursive;
+}
+header{
+    display: flex;
+    background-color: var(--color-empresa); 
+}
+
+/*Estilos para la barra de navegación*/
+nav{
+    margin-top: 1.5rem;
+}
+
+.btn-menu{
+    border: 2px solid blueviolet;
+    padding: 0.rem;
+    margin-right: 0.5rem;
+    background-color: blueviolet;
+    color: aliceblue;
+    border-radius: .5rem;
+    text-decoration: none;
+}
+
+/*Estilos para la secciones*/
+.section-img{
+    width: 30%;
+}
+
+.contenido{
+    display: flex;
+    gap: .8rem;
+}
+
+section{
+    border: 1px solid rgb(5, 5, 5);
+    margin-top: 5rem;
+    padding: .8rem;
+    border-radius: .5rem;
+}
+
+footer{
+    background-color: var(--color-empresa);
+    padding: 3rem;
+    text-align: center;
+    font-weight: 800; 
+}
+
+
+
+
